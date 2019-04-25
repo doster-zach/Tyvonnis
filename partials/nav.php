@@ -1,14 +1,14 @@
 <nav>
     <div class="nav-left">
         <ul>
-            <li class="nav-logo"><img src="../assets/general/logo.webp" alt="Tyvonni's"</li>
+            <a href="/"><li class="nav-logo"><img src="../assets/general/logo.webp" alt="Tyvonni's"/></li></a>
         </ul>
     </div>
     <div class="nav-right">
         <ul>
-            <li>Menu</li>
-            <li>About</li>
-            <li>Contact</li>
+            <a href="/menu/"><li>Menu</li></a>
+            <a href="/about/"><li>About</li></a>
+            <a href="/contact/"><li>Contact</li></a>
         </ul>
     </div>
 </nav>

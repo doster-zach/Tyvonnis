@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="336px" height="336px" viewBox="0 0 336 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Rough 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.90169492,0 L185.25678,0 L187,55.2177122 L179.234746,55.2177122 C175.431337,37.869532 170.597911,26.577517 164.734322,21.3413284 C158.870733,16.1051399 146.536252,13.4870849 127.730508,13.4870849 L109.664407,13.4870849 L109.664407,179.774908 C109.664407,192.362917 111.618907,200.164192 115.527966,203.178967 C119.437025,206.193742 127.994567,208.177117 141.200847,209.129151 L141.200847,215 L46.5915254,215 L46.5915254,209.129151 C60.3260574,208.071335 68.8835989,205.797065 72.2644068,202.306273 C75.6452146,198.815481 77.3355932,190.035741 77.3355932,175.96679 L77.3355932,13.4870849 L59.2694915,13.4870849 C41.3089497,13.4870849 29.0801172,16.0786949 22.5826271,21.2619926 C16.085137,26.4452904 11.1988864,37.7637504 7.92372881,55.2177122 L0,55.2177122 L1.90169492,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rough-1" transform="translate(3.000000, 3.000000)">
+            <circle id="Oval-Copy" stroke="#009144" stroke-width="6" fill="#FDF8ED" cx="165" cy="165" r="150"></circle>
+            <g id="Group-Copy" transform="translate(72.000000, 58.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="T" fill-rule="nonzero">
+                    <use fill="#4A4A4A" xlink:href="#path-1"></use>
+                    <use fill="#009144" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" fill="#E2F9CD" mask="url(#mask-2)" x="0" y="70" width="187" height="75"></rect>
+            </g>
+            <rect id="Rectangle-Copy" stroke="#009144" stroke-width="4" fill="#FDF8ED" x="11" y="129" width="310" height="85"></rect>
+            <g id="Group-2-Copy">
+                <circle id="Oval" stroke="#009144" stroke-width="5" cx="165" cy="165" r="165"></circle>
+                <circle id="Oval" stroke="#ED5929" stroke-width="11" cx="165" cy="165" r="157"></circle>
+            </g>
+            <text id="Tyvonni's" fill="#ED5929" font-family="SnellRoundhand-Bold, Snell Roundhand" font-size="64" font-weight="bold">
+                <tspan x="36" y="187">Tyvonni's</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

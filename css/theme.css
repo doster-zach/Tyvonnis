@@ -38,8 +38,10 @@ nav ul li {
     padding: 10px 20px;
 }
 nav .nav-logo img {
-    width: 200px;
+    width: 120px;
+    padding-left: 30px;
     position: fixed;
+    top: 15px;
 }
 
 /* Hero Component */

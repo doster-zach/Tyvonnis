@@ -1,7 +1,7 @@
 <nav>
     <div class="nav-left">
         <ul>
-            <a href="/"><li class="nav-logo"><img src="../assets/general/logo.webp" alt="Tyvonni's"/></li></a>
+            <a href="/"><li class="nav-logo"><img src="../assets/general/logo.svg" alt="Tyvonni's"/></li></a>
         </ul>
     </div>
     <div class="nav-right">

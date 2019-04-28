@@ -1,4 +1,4 @@
-<a class="menu-link medium-up--one-third" href="<?= $item_link ?>">
+<a class="menu-link medium-up--one-third small-down--one-half" href="<?= $item_link ?>">
   <div class="menu-item " style="background-image: url('../assets/menu/<?= $file_name ?>'">
       <div class="img-overlay">
       </div>

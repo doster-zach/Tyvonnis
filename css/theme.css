@@ -58,6 +58,11 @@ input, textarea {
 .medium-up--one-third {
     width: 33.3%;
 }
+@media only screen and (max-width: 767px) {
+    .small-down--one-half {
+        width: 50%;
+    }
+}
 
 /* Navigatoin */
 nav {
@@ -107,6 +112,7 @@ nav a:hover {
     font-weight: 600;
 }
 
+/* Home */
 /* Hero Component */
 .hero-container {
     position: relative;
@@ -159,6 +165,16 @@ nav a:hover {
     left: 0;
     background-color: rgba(0,0,0,0.25);
 }
+@media only screen and (max-width: 767px) {
+    .hero-text-content h2 {
+        font-size: 32px;
+        font-size: 2em;
+    }
+    .hero-text-content h1 {
+        font-size: 48px;
+        font-size: 3em;
+    }
+}
 
 /* Complete your order */
 .image-breakdown-container {
@@ -194,6 +210,7 @@ nav a:hover {
     display: inline-block;
     padding-top: 100px;
     position: relative;
+    vertical-align: top;
     z-index: 2;
 }
 .breakdown-one-half.left {
@@ -214,6 +231,24 @@ nav a:hover {
 }
 .breakdown-text, .breakdown-button {
     position: relative;
+}
+@media only screen and (max-width: 767px) {
+    .image-breakdown-container .desktop {
+        display: none;
+    }
+    .image-breakdown-container {
+        height: 600px;
+    }
+    .breakdown-full {
+        height: 100%;
+        padding-top: 0;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .image-breakdown-container .breakdown-button {
+        margin: 0 auto;
+    }
 }
 
 /* Steps */
@@ -252,11 +287,27 @@ nav a:hover {
 .step p {
     padding-bottom: 20px;
 }
+.step {
+    padding: 0px 15px;
+}
 .step h2 {
     text-transform: capitalize;
     font-size: 40px;
     font-size: 2.5em;
     margin: 10px 0;
+}
+.steps-mobile {
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .steps-mobile {
+        display: block;
+    }
+    .steps-section .desktop {
+        display: none;
+    }
+    .step {
+    }
 }
 
 /* footer */
@@ -348,6 +399,36 @@ footer .social-container img {
     margin-left: 10px;
     margin-top: 10px;
 }
+@media only screen and (max-width: 767px) {
+    footer {
+        height: 620px;
+    }
+    footer .left-wrapper, footer .right-wrapper {
+        display: block;
+        width: 100%;
+        height: 66%;
+    }
+    .footer-field-name {
+        width: calc(50% - 20px);
+    }
+    .footer-field-email {
+        width: calc(100% - 20px);
+    }
+    footer .right-wrapper {
+        height: 33%;
+    }
+    footer .right {
+        border-top: 1px solid white;
+        border-left: none;
+        text-align: left;
+    }
+    footer .left h3 {
+        padding-top: 20px;
+    }
+    footer .social-container img:first-child {
+        padding-left: 0px;
+    }
+}
 
 /* Menu */
 .menu.hero-container {
@@ -380,13 +461,14 @@ footer .social-container img {
     font-size: 40px;
     font-size: 2.5em;
 }
+
 /* About */
 .about.hero-container {
     height: 450px;
     background-image: url("../assets/about/hero.jpg");
 }
 .about-quote {
-   padding: 60px 0;
+   padding: 60px 10px;
 }
 .about-quote p {
     font-size: 32px;
@@ -402,6 +484,7 @@ footer .social-container img {
     display: inline-block;
     width: calc(50% - 20px);
     padding-bottom: 60px;
+    vertical-align: top;
 }
 .about-item.left {
     padding-right: 20px;
@@ -416,7 +499,8 @@ footer .social-container img {
 }
 .about-item-wrapper {
     display: table;
-    width: 100%;
+    width: calc(100% - 20px);
+    padding: 0 10px;
 }
 .about-item h2 {
     color: #9FB18E;

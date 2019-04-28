@@ -20,6 +20,9 @@
             <label for="message">Your Message</label>
             <textarea name="message" id="message"></textarea>
           </div>
+          <button class="footer-submit">
+              Send
+          </button>
         </div>
       </div>
     </div>

@@ -8,7 +8,6 @@
         <ul>
             <a href="/menu/"><li>Menu</li></a>
             <a href="/about/"><li>About</li></a>
-            <a href="/contact/"><li>Contact</li></a>
         </ul>
     </div>
 </nav>

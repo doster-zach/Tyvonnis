@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Combined-Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1214.000000, -4097.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Social-Media" transform="translate(1170.000000, 4037.000000)">
+                <g id="linkedin" transform="translate(44.000000, 60.000000)">
+                    <path d="M3,0 L27,0 C28.6568542,0 30,1.34314575 30,3 L30,27 C30,28.6568542 28.6568542,30 27,30 L3,30 C1.34314575,30 2.02906125e-16,28.6568542 0,27 L0,3 C-2.02906125e-16,1.34314575 1.34314575,0 3,0 Z M9,6.75 C9,5.508 7.99294355,4.5 6.75,4.5 C5.50705645,4.5 4.5,5.508 4.5,6.75 C4.5,7.9929 5.50705645,9 6.75,9 C7.99294355,9 9,7.9929 9,6.75 Z M9,11.5 L4.5,11.5 L4.5,25.9 L9,25.9 L9,11.5 Z M16.0182511,11.4553594 L11.5,11.4553594 L11.5,26.0068927 L16.0191606,26.0068927 L16.0191606,18.3682472 C16.0191606,14.1210184 21.5023602,13.7736006 21.5023602,18.3682472 L21.5023602,26.0068927 L26.0388007,26.0068927 L26.0388007,16.7930437 C26.0388007,9.6264136 17.9245019,9.8874317 16.0182511,13.415269 L16.0182511,11.4553594 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

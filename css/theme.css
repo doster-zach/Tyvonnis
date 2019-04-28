@@ -5,12 +5,10 @@ html {
 }
 body {
     margin: 0;
-    height: 3000px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Playfair Display', serif;
-    cursor: default;
     text-transform: uppercase;
 }
 button {
@@ -24,14 +22,24 @@ button {
     border: 2px solid white;
 }
 button:hover {
-    cursor: pointer;
     color:#9FB18E;
     border-color: #9FB18E;
     background-color: white;
     transition: background 0.5s ease;
 }
+input:focus,
+textarea:focus,
 button:focus {
     outline: none;
+}
+input, textarea {
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #F0F0F0;
+    color: #9FB18E;
+    border: 0;
+    height: 30px;
 }
 .container {
     max-width: 1100px;
@@ -197,6 +205,7 @@ nav a:hover {
 
 /* Steps */
 .steps-section {
+    padding-bottom: 60px;
     display: table;
     widows: 100%;
 }
@@ -235,4 +244,89 @@ nav a:hover {
     font-size: 40px;
     font-size: 2.5em;
     margin: 10px 0;
+}
+
+/* footer */
+footer {
+    height: 400px;
+    background-color: #9FB18E;
+    width: 100%;
+}
+footer textarea {
+    width: 100%;
+    height: 150px;
+}
+footer .footer-container {
+    display: table;
+    width: calc(100% - 100px);
+    height: 100%;
+    padding: 0px 50px;
+}
+footer h3 {
+    color: white;
+    font-size: 32px;
+    font-size: 2em;
+    text-transform: none;
+    margin: 0;
+}
+footer label {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    display: block;
+}
+footer .left h3 {
+    padding-left: 10px;
+}
+footer .left-wrapper,
+footer .right-wrapper {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    height: 100%;
+}
+footer .left,
+footer .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+footer .right {
+    text-align: right;
+    border-left: 1px solid white;
+    height: calc(100% - 40px);
+    margin: 20px 0;
+}
+footer .form-wrapper {
+    width: 100%;
+    max-width: 600px;
+    display: table;
+}
+.footer-field-name {
+    display: inline-block;
+    width: calc(25% - 20px);
+    padding: 10px;
+}
+.footer-field-name input {
+    width: 100%;
+}
+.footer-field-email {
+    display: inline-block;
+    width: calc(50% - 20px);
+    padding: 10px;
+}
+.footer-field-email input {
+    width: 100%;
+}
+.footer-field-message {
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+.footer-field-message label {
+    display: block;
+}
+footer .social-container img {
+    padding: 10px;
+    vertical-align: middle;
 }

@@ -45,6 +45,8 @@ input, textarea {
     color: #9FB18E;
     border: 0;
     height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .container {
     max-width: 1100px;
@@ -258,7 +260,7 @@ footer {
     width: 100%;
 }
 footer textarea {
-    width: 100%;
+    width: calc(100% - 20px);
     height: 100px;
 }
 footer .footer-container {
@@ -314,7 +316,7 @@ footer .form-wrapper {
     padding: 10px;
 }
 .footer-field-name input {
-    width: 100%;
+    width: calc(100% - 20px);
 }
 .footer-field-email {
     display: inline-block;
@@ -322,7 +324,7 @@ footer .form-wrapper {
     padding: 10px;
 }
 .footer-field-email input {
-    width: 100%;
+    width: calc(100% - 20px);
 }
 .footer-field-message {
     width: calc(100% - 20px);

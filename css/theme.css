@@ -27,6 +27,7 @@ button:hover {
     background-color: white;
     transition: background 0.5s ease;
 }
+a,
 :visited,
 :hover {
     text-decoration: none;
@@ -342,15 +343,21 @@ footer .social-container img {
 }
 .menu-grid {
     padding: 100px 0;
+    display: table;
+    width: 100%;
 }
 .menu-link {
+    vertical-align: top;
+    display: inline-block;
 }
 .menu-item {
-    height: 366.6px;
+    height: calc(366.6px - 20px);
+    margin: 15px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-size: cover;
 }
 .medium-up--one-third {
     width: 33.3%;

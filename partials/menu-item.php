@@ -1,5 +1,5 @@
-<a class="menu-link" href="<?= $item_link ?>">
-  <div class="menu-item medium-up--one-third" style="background-image: url('../assets/menu/<?= $file_name ?>'">
+<a class="menu-link medium-up--one-third" href="<?= $item_link ?>">
+  <div class="menu-item " style="background-image: url('../assets/menu/<?= $file_name ?>'">
       <div class="img-overlay">
       </div>
       <div class="breakdown-text">

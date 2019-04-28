@@ -27,6 +27,10 @@ button:hover {
     background-color: white;
     transition: background 0.5s ease;
 }
+:visited,
+:hover {
+    text-decoration: none;
+}
 input:focus,
 textarea:focus,
 button:focus {
@@ -336,7 +340,29 @@ footer .social-container img {
     height: 450px;
     background-image: url("../assets/menu/hero.jpg");
 }
-
+.menu-grid {
+    padding: 100px 0;
+}
+.menu-link {
+}
+.menu-item {
+    height: 366.6px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.medium-up--one-third {
+    width: 33.3%;
+}
+.menu-item h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-decoration: none!important;
+    font-size: 40px;
+    font-size: 2.5em;
+}
 /* About */
 .about.hero-container {
     height: 450px;

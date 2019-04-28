@@ -330,3 +330,15 @@ footer .social-container img {
     padding: 10px;
     vertical-align: middle;
 }
+
+/* Menu */
+.menu.hero-container {
+    height: 450px;
+    background-image: url("../assets/menu/hero.jpg");
+}
+
+/* About */
+.about.hero-container {
+    height: 450px;
+    background-image: url("../assets/about/hero.jpg");
+}

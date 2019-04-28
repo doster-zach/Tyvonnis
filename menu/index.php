@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>Tyvannis -- Menu</title>
-        <?php require '/partials/head.php'; ?>
+        <?php require '../partials/head.php'; ?>
     </head>
     <body>
-        <?php require '/partials/nav.php'; ?>
+        <?php require '../partials/nav.php'; ?>
         
-        <?php require '/partials/footer.php'; ?>
+        <?php require '../partials/footer.php'; ?>
     </body>
 </html>

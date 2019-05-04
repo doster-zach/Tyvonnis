@@ -8,6 +8,7 @@
         <ul>
             <a href="/menu/"><li>Menu</li></a>
             <a href="/about/"><li>About</li></a>
+            <a href="/login/"><li>Login</li></a>
         </ul>
     </div>
 </nav>

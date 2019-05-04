@@ -428,6 +428,12 @@ footer .social-container img {
     footer .social-container img:first-child {
         padding-left: 0px;
     }
+    footer .footer-container {
+        height: unset;
+    }
+    footer .right-wrapper h3 {
+        padding-top: 20px;
+    }
 }
 
 /* Menu */
@@ -511,4 +517,42 @@ footer .social-container img {
 }
 .about-item p {
     color: #9FB18E;
+}
+
+/* login */
+.loginForm-container {
+    width: 100%;
+    max-width: 400px;
+    margin:auto;
+    padding: 50px 0 100px;
+}
+.loginForm input,
+.loginForm label {
+    display: block;
+    width: calc(100% - 20px);
+}
+.loginForm label {
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    color: #9FB18E;
+}
+.loginForm input {
+    margin-bottom: 30px;
+    height: 50px;
+}
+.loginForm-container h3{
+    font-size: 32px;
+    font-size: 2em;
+    color: #9FB18E;
+}
+.sign-in-button {
+    display: block;
+    background-color: white;
+    border-color: #9FB18E;
+    color: #9FB18E;
+    margin: auto;
+}
+.sign-in-button:hover {
+    color: white;
+    background-color: #9FB18E;
 }

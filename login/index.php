@@ -16,7 +16,6 @@
           <p>
            <?php
             echo $_SESSION['login_error'];
-            $_SESSION['login_error'] = 'hi there';
            ?>
           </p>
         </div>
@@ -28,8 +27,8 @@
             <input type="text" name="email" id="email-login" autocomplete="username email" required>
             <label for="password-login">Password</label>
             <input type="password" name="password" id="password-login" minlength="8" autocomplete="current-password" required>
+            <input type="submit" value="Login" class="sign-in-button">
           </form>
-          <input type="submit" value="Sign Up" class="sign-in-button">
           <button class="create-account-button" onclick="changeForms()">
             Create Account
           </button>
@@ -45,16 +44,19 @@
             <input type="text" name="email" id="email-sign-up" autocomplete="username email" required>
             <label for="password-sign-up">Password</label>
             <input type="password" name="password" id="password-sign-up" minlength="8" autocomplete="new-password" required >
-            <input type="submit" value="Sign Up" class="sign-in-button">
+            <input type="submit" value="Sign Up" class="footer-submit">
           </form>
         </div>
-        <?php require '../partials/footer.php'; ?>
+        <?php 
+          require '../partials/footer.php';
+          unset($_SESSION['login_error']);
+          session_destroy();
+        ?>
         <script>          
           function changeForms() {
             $(".signUpForm-container").toggleClass("hidden");
             $(".loginForm-container").toggleClass("hidden");
           }
         </script>
-        <?php session_destroy(); ?>
     </body>
 </html>

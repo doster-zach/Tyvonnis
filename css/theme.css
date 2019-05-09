@@ -365,7 +365,7 @@ footer .right {
     height: calc(100% - 40px);
     margin: 20px 0;
 }
-footer .form-wrapper {
+footer .contact-form {
     width: 100%;
     max-width: 500px;
     display: table;
@@ -401,6 +401,15 @@ footer .social-container img {
     width: 225px;
     margin-left: 10px;
     margin-top: 10px;
+    background-color: #9FB18E;
+    color: white;
+    border: 2px solid white;
+    height: 50px;
+}
+.footer-submit:hover {
+    color: #9FB18E;
+    transition: background 0.5s;
+    background-color: white;
 }
 @media only screen and (max-width: 767px) {
     footer {
@@ -596,4 +605,36 @@ footer .social-container img {
     font-size: 24px;
     font-size: 1.5em;
     text-transform: uppercase;
+}
+
+/* Login modal */
+.successModal {
+    position: fixed;
+    top: -500px;
+    left: calc(50% - 150px);
+    z-index: 100;
+    text-align: center;
+    width: 300px;
+    background-color: #9FB18E;
+    border-radius: 5px;
+    margin-top: 25px;
+    color: white;
+    border: 2px solid rgba(79.5,98.5,71);
+    transition: top;
+}
+.successModal.show {
+    top: 0px;
+}
+
+/* Video */
+.videos h1 {
+    font-size: 48px;
+    font-size: 3em;
+    color: #9FB18E;
+    text-align: center;
+}
+
+.videos iframe {
+    margin: 20px auto;
+    display: block;
 }

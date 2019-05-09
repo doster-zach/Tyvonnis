@@ -6,6 +6,12 @@
     </head>
     <body>
         <?php require './partials/nav.php'; ?>
+        <?php 
+        session_start();
+        if($_SESSION["firstName"]) {
+            require './partials/loginSuccess.php';
+        }
+        ?>
         <div class="container-full">
             <div class="hero-container">
                 <div class="img-overlay">
@@ -120,5 +126,13 @@
             </div>
         </div>
         <?php require './partials/footer.php'; ?>
+        <script>
+            $(document).ready(function() {
+                $(".successModal").addClass("show")
+                setTimeout(function () { 
+                    $(".successModal").removeClass("show")
+                }, 3000);
+            });
+        </script>
     </body>
 </html>

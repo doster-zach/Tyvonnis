@@ -20,6 +20,7 @@
     $user = "INSERT INTO Member VALUES ('" . $email . "', '". $fname ."', '" . $lname . "', '" . $pass . "');";
     makeQuery($conn, $user);
     $conn->close();
+    unset($_SESSION['login_error']);
     header("Location: /");
   }
   else {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tyvannis -- About</title>
+        <title>Tyvonnis -- About</title>
         <?php require '../partials/head.php'; ?>
     </head>
     <body>

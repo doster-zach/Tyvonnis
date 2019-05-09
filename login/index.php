@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tyvannis</title>
+        <title>Tyvonnis -- Login</title>
         <?php
         session_start();
         require '../partials/head.php'; 

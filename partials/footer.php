@@ -1,27 +1,49 @@
 <footer>
 <script>
-  $(document).ready(function() {
-      $("#contact-form").click(function(e) {
-          e.preventDefault();
-          $.ajax({
-              url: '/partials/sendEmail.php',
-              type: 'POST',
-              data: {
-                  email: 'dosterz97@gmail.com',
-                  message: 'hello world!'
-              },
-              success: function(msg) {
-                  alert('Email Sent');
-              }               
-          }); 
-      });
-  });
+(function ($) {
+    'use strict';
+    var form = $('#contact-form'),
+        message = $('#emailMessage'),
+        form_data;
+    // Success function
+    function success(response) {
+        message.fadeIn().removeClass('alert-danger').addClass('alert-success');
+        message.text(response);
+        setTimeout(function () {
+            message.fadeOut();
+        }, 2000);
+        form.find('input:not([type="submit"]), textarea').val('');
+    }
+    // fail function
+    function failure(data) {
+        message.fadeIn().removeClass('alert-success').addClass('alert-success');
+        message.text(data.responseText);
+        setTimeout(function () {
+            message.fadeOut();
+        }, 2000);
+    }
+    
+    // form.submit(function (e) {
+    //     e.preventDefault();
+    //     formData = $(this).serialize();
+    //     $.ajax({
+    //         type: 'POST',
+    //         method: 'POST',
+    //         url: form.attr('action'),
+    //         data: formData
+    //     })
+    //     .done(success)
+    //     .fail(failure);
+
+    // });  
+})(jQuery);
 </script>
   <div class="footer-container">
     <div class="left-wrapper">
       <div class="left">
         <h3>Get in touch.</h3>
-        <form id="contact-form" class="contact-form" accept-charset="UTF-8">         
+        <div id="emailMessage"></div>
+        <form id="contact-form" class="contact-form" action="/partials/sendEmail.php" method="post" accept-charset="UTF-8">         
           <div class="footer-field-name">
             <label for="firstName">First</label>
             <input type="text" name="firstName" id="firstName" required>
